@@ -156,6 +156,7 @@ describe("Feeds", () => {
                   websiteLink: null,
                 },
               },
+              supplyDate: [],
               price: {
                 priceType: "RrpIncludingTax",
                 currencyCode: "NOK",
