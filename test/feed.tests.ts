@@ -35,6 +35,7 @@ describe("Feeds", () => {
             productFormDetail: "Epub",
             primaryContentType: "TextEyeReadable",
             epubTechnicalProtection: "DigitalWatermarking",
+            tradeCategory: null,
             collections: [
               {
                 collectionType: "PublisherCollection",
@@ -231,6 +232,7 @@ describe("Feeds", () => {
             productFormDetail: "Reflowable",
             primaryContentType: "TextEyeReadable",
             epubTechnicalProtection: "DigitalWatermarking",
+            tradeCategory: "LibraryAudioEdition",
             collections: [],
             titleDetail: {
               titleType:

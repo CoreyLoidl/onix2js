@@ -38,6 +38,7 @@ describe("Feeds", () => {
             productForm: "DigitalDownload",
             productFormDetail: "Epub",
             primaryContentType: null,
+            tradeCategory: null,
             epubTechnicalProtection: "DigitalWatermarking",
             collections: [ ],
             titleDetail: {
