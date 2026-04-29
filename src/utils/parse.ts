@@ -47,7 +47,6 @@ export function parseStringToArray(json: Object, path: string, type: Object) {
   const typedValue = [];
 
   for (const v of valueArray) {
-    console.log(type[v]);
     typedValue.push(trim(type[v]));
   }
 
