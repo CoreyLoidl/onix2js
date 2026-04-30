@@ -35,6 +35,7 @@ describe("Feeds", () => {
             productFormDetail: "Epub",
             primaryContentType: "TextEyeReadable",
             epubTechnicalProtection: "DigitalWatermarking",
+            tradeCategory: null,
             collections: [
               {
                 collectionType: "PublisherCollection",
@@ -188,6 +189,7 @@ describe("Feeds", () => {
                   websiteLink: null,
                 },
               },
+              supplyDate: [],
               price: {
                 priceType: "SupplierSNetPriceExcludingTax",
                 currencyCode: "SEK",
@@ -231,6 +233,7 @@ describe("Feeds", () => {
             productFormDetail: "Reflowable",
             primaryContentType: "TextEyeReadable",
             epubTechnicalProtection: "DigitalWatermarking",
+            tradeCategory: "LibraryAudioEdition",
             collections: [],
             titleDetail: {
               titleType:
@@ -368,6 +371,16 @@ describe("Feeds", () => {
                   websiteLink: "ftp://ftp.qa.xx.dk/yy.epub",
                 },
               },
+              supplyDate: [
+                {
+                  supplyDateRole: "SalesEmbargoDate",
+                  date: new Date(Date.UTC(2008, 0, 1)),
+                },
+                {
+                  supplyDateRole: "ExpectedAvailabilityDate",
+                  date: new Date(Date.UTC(2008, 1, 1)),
+                }
+              ],
               price: {
                 priceType: "SupplierSNetPriceExcludingTax",
                 currencyCode: "DKK",

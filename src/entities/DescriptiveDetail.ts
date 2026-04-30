@@ -15,6 +15,10 @@ import {
   EPublicationTechnicalProtectionEnum,
   EPublicationTechnicalProtection,
 } from "../codelists/EPublicationTechnicalProtection";
+import {
+  TradeCategoryEnum,
+  TradeCategory
+} from "../codelists/TradeCategory";
 
 import { TitleDetail } from "./TitleDetail";
 import { Contributor } from "./Contributor";
@@ -48,6 +52,11 @@ export class DescriptiveDetail {
       "EpubTechnicalProtection",
       EPublicationTechnicalProtection
     );
+    this.tradeCategory = parseType(
+      json,
+      "TradeCategory",
+      TradeCategory
+    );
 
     this.titleDetail = new TitleDetail(json.TitleDetail[0]);
     this.collections =
@@ -64,6 +73,7 @@ export class DescriptiveDetail {
   productFormDetail: ProductFormDetailEnum;
   primaryContentType: ProductContentTypeEnum;
   epubTechnicalProtection: EPublicationTechnicalProtectionEnum;
+  tradeCategory: TradeCategoryEnum;
   titleDetail: TitleDetail;
   collections: Collection[];
   contributors: Contributor[];

@@ -38,6 +38,7 @@ describe("Feeds", () => {
             productForm: "DigitalDownload",
             productFormDetail: "Epub",
             primaryContentType: null,
+            tradeCategory: null,
             epubTechnicalProtection: "DigitalWatermarking",
             collections: [ ],
             titleDetail: {
@@ -155,6 +156,7 @@ describe("Feeds", () => {
                   websiteLink: null,
                 },
               },
+              supplyDate: [],
               price: {
                 priceType: "RrpIncludingTax",
                 currencyCode: "NOK",

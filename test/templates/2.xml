@@ -19,6 +19,7 @@
             <ProductForm>ED</ProductForm>
             <ProductFormDetail>E200</ProductFormDetail>
             <PrimaryContentType>10</PrimaryContentType>
+            <TradeCategory>06</TradeCategory>
             <EpubTechnicalProtection>02</EpubTechnicalProtection>
             <TitleDetail>
                 <TitleType>01</TitleType>
@@ -134,6 +135,14 @@
                     </Website>
                 </Supplier>
                 <ProductAvailability>20</ProductAvailability>
+                <SupplyDate>
+                    <SupplyDateRole>02</SupplyDateRole>
+                    <Date>20080101</Date>
+                </SupplyDate>
+                <SupplyDate>
+                    <SupplyDateRole>08</SupplyDateRole>
+                    <Date>20080201</Date>
+                </SupplyDate>
                 <Price>
                     <PriceType>05</PriceType>
                     <PriceAmount>50.00</PriceAmount>
