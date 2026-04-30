@@ -1,5 +1,5 @@
 {
-  "name": "onix2js",
+  "name": "@CoreyLoidl/onix2js",
   "version": "0.2.3",
   "description": "",
   "main": "./lib/cjs/index.js",
@@ -16,6 +16,10 @@
   "files": [
     "lib/**/*"
   ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "repository": "https://github.com/CoreyLoidl/onix2js",
   "devDependencies": {
     "@types/chai": "4.2.18",
     "@types/lodash": "4.14.170",
